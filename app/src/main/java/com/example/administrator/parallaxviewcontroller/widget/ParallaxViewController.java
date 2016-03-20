@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @author wangchengm
- * @date 2015 11 15
+ * @date 2014 11 15
  */
 public class ParallaxViewController extends RecyclerView.OnScrollListener {
 

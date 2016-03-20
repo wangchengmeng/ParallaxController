@@ -2,7 +2,7 @@ package com.example.administrator.parallaxviewcontroller;
 
 /**
  * @author wangchengm
- * @date 2015 11 15
+ * @date 2014 11 15
  */
 
 import android.os.Bundle;

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ParallaxViewController.iml" filepath="$PROJECT_DIR$/ParallaxViewController.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParallaxController.iml" filepath="$PROJECT_DIR$/ParallaxController.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

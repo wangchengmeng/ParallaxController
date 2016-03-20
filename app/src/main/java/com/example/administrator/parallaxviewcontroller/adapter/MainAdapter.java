@@ -2,7 +2,7 @@ package com.example.administrator.parallaxviewcontroller.adapter;
 
 /**
  * @author wangchengm
- * @date 2015 11 15
+ * @date 2014 11 15
  */
 
 import android.app.Activity;
@@ -88,31 +88,33 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MyViewHolder> 
         int mItemSize = (DensityUtils.getScreenW() - DensityUtils.dip2px(SPACE_VALUE)) / NUM_COLUMNS + DensityUtils.dip2px(25);
 
         @Bind(R.id.root_view)
-        View      mViewRoot;
+        View mViewRoot;
         @Bind(R.id.rl_cover)
-        View      mRlCover;
+        View mRlCover;
         @Bind(R.id.iv_decoration_left)
         ImageView mIvDecorationLeft;
         @Bind(R.id.tv_title)
-        TextView  mTvTitle;
+        TextView mTvTitle;
         @Bind(R.id.iv_decoration_right)
         ImageView mIvDecorationRight;
         @Bind(R.id.iv_cover)
         ImageView mIvCover;
         @Bind(R.id.rl_space)
-        View      mRlSpace;
+        View mRlSpace;
         @Bind(R.id.iv_bottom)
         ImageView mIvBottom;
 
         MyViewHolder(View view) {
             super(view);
             ButterKnife.bind(this, view);
+            //测量所有的控件 完成屏幕的完美适配
             UIUtil.setViewHeight(mIvCover, DensityUtils.getScreenW() * 840 / 1080);
             UIUtil.setViewHeight(mRlCover, DensityUtils.getScreenW() * 980 / 1080);
             UIUtil.setViewHeight(mIvBottom, mItemSize);
             DensityUtils.measure(mIvDecorationLeft, 20, 20);
             DensityUtils.measure(mIvDecorationRight, 20, 20);
             DensityUtils.measure(mRlSpace, 0, 60);
+            //将封面图片添加到视差控制器中
             mController.imageParallax(mIvCover);
         }
     }

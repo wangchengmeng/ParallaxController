@@ -9,6 +9,8 @@ import android.view.View;
 
 
 /**
+ * @author wangchengm
+ * @date 2013 12 23
  * 常用单位转换的辅助类
  */
 public class DensityUtils {

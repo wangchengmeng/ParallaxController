@@ -24,7 +24,7 @@ import java.util.TimerTask;
  * UI的帮助类
  *
  * @author wangchengm
- * @version 2013-08-02 xu.xb 加入移动EditText光标的方法<br>
+ * @version 2013-10-02  加入移动EditText光标的方法<br>
  */
 public class UIUtil {
     private static final String       TAG                  = "UIUtil";
