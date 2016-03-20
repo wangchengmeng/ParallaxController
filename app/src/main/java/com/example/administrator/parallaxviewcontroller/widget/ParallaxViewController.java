@@ -14,7 +14,8 @@ import java.util.List;
  */
 public class ParallaxViewController extends RecyclerView.OnScrollListener {
 
-    int PARALLAX_SPEED = 50;
+    //设置偏移量明显的程度  值越大 偏移量越明显
+    int PARALLAX_SPEED = 200;
 
     protected List<ImageView> imageViewList = new ArrayList<>();
 

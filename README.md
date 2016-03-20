@@ -17,3 +17,6 @@ Parallax
 
 	将图片添加到控制器中
     mController.imageParallax(mIvCover);
+
+	//设置偏移量明显的程度  值越大 偏移量越明显
+    int PARALLAX_SPEED = 200;
